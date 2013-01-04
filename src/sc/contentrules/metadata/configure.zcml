@@ -1,0 +1,20 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="sc.contentrules.metadata">
+
+    <i18n:registerTranslations directory="locales" />
+
+    <!-- Plone 4: If you use the the cmf.ManagePortal permission for exemple.-->
+    <include 
+          zcml:condition="have plone-4"
+          package="Products.CMFCore" file="permissions.zcml" />
+
+    <include package="plone.app.contentrules" />
+    
+    <include package=".actions" />
+    <include package=".conditions" />
+
+</configure>

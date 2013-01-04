@@ -1,0 +1,189 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="sc.contentrules.metadata">
+
+    <!-- Subject -->
+    <plone:ruleAction
+        name="sc.contentrules.actions.Subject"
+        title="Sets Tags"
+        description="Sets Tags for a content item."
+        for="*"
+        event="zope.component.interfaces.IObjectEvent"
+        addview="sc.contentrules.actions.Subject"
+        editview="edit"
+        schema=".subject.ISubjectAction"
+        factory=".subject.SubjectAction"
+        i18n:attributes="title; description"
+        />
+
+    <adapter factory=".subject.SubjectActionExecutor" />
+
+    <browser:page
+      for="plone.app.contentrules.browser.interfaces.IRuleActionAdding"
+      name="sc.contentrules.actions.Subject"
+      class=".subject.SubjectAddForm"
+      permission="cmf.ManagePortal"
+      />
+
+    <browser:page
+      for="sc.contentrules.metadata.actions.subject.ISubjectAction"
+      name="edit"
+      class=".subject.SubjectEditForm"
+      permission="cmf.ManagePortal"
+      />
+
+
+    <!-- Exclude From Nav -->
+    <plone:ruleAction
+        name="sc.contentrules.actions.ExcludeFromNav"
+        title="Exclude from navigation"
+        description="Excludes a content item from navigation."
+        for="*"
+        event="zope.component.interfaces.IObjectEvent"
+        addview="sc.contentrules.actions.ExcludeFromNav"
+        editview="edit"
+        schema=".navigation.IExcludeFromNavAction"
+        factory=".navigation.ExcludeFromNavAction"
+        i18n:attributes="title; description"
+        />
+
+    <adapter factory=".navigation.ExcludeFromNavActionExecutor" />
+
+    <browser:page
+      for="plone.app.contentrules.browser.interfaces.IRuleActionAdding"
+      name="sc.contentrules.actions.ExcludeFromNav"
+      class=".navigation.ExcludeFromNavAddForm"
+      permission="cmf.ManagePortal"
+      />
+
+    <browser:page
+      for="sc.contentrules.metadata.actions.navigation.IExcludeFromNavAction"
+      name="edit"
+      class=".navigation.ExcludeFromNavEditForm"
+      permission="cmf.ManagePortal"
+      />
+
+    <!-- Language -->
+    <plone:ruleAction
+        name="sc.contentrules.actions.Language"
+        title="Set Language"
+        description="Defines a language to the content item"
+        for="*"
+        event="zope.component.interfaces.IObjectEvent"
+        addview="sc.contentrules.actions.Language"
+        editview="edit"
+        schema=".language.ILanguageAction"
+        factory=".language.LanguageAction"
+        i18n:attributes="title; description"
+        />
+
+    <adapter factory=".language.LanguageActionExecutor" />
+
+    <browser:page
+      for="plone.app.contentrules.browser.interfaces.IRuleActionAdding"
+      name="sc.contentrules.actions.Language"
+      class=".language.LanguageAddForm"
+      permission="cmf.ManagePortal"
+      />
+
+    <browser:page
+      for="sc.contentrules.metadata.actions.language.ILanguageAction"
+      name="edit"
+      class=".language.LanguageEditForm"
+      permission="cmf.ManagePortal"
+      />
+
+    <!-- Rights -->
+    <plone:ruleAction
+        name="sc.contentrules.actions.Rights"
+        title="Set Rights"
+        description="Defines rights for the content item"
+        for="*"
+        event="zope.component.interfaces.IObjectEvent"
+        addview="sc.contentrules.actions.Rights"
+        editview="edit"
+        schema=".rights.IRightsAction"
+        factory=".rights.RightsAction"
+        i18n:attributes="title; description"
+        />
+
+    <adapter factory=".rights.RightsActionExecutor" />
+
+    <browser:page
+      for="plone.app.contentrules.browser.interfaces.IRuleActionAdding"
+      name="sc.contentrules.actions.Rights"
+      class=".rights.RightsAddForm"
+      permission="cmf.ManagePortal"
+      />
+
+    <browser:page
+      for="sc.contentrules.metadata.actions.rights.IRightsAction"
+      name="edit"
+      class=".rights.RightsEditForm"
+      permission="cmf.ManagePortal"
+      />
+
+    <!-- Creators -->
+    <plone:ruleAction
+        name="sc.contentrules.actions.Creators"
+        title="Set Creators"
+        description="Defines creators for the content item"
+        for="*"
+        event="zope.component.interfaces.IObjectEvent"
+        addview="sc.contentrules.actions.Creators"
+        editview="edit"
+        schema=".creators.ICreatorsAction"
+        factory=".creators.CreatorsAction"
+        i18n:attributes="title; description"
+        />
+
+    <adapter factory=".creators.CreatorsActionExecutor" />
+
+    <browser:page
+      for="plone.app.contentrules.browser.interfaces.IRuleActionAdding"
+      name="sc.contentrules.actions.Creators"
+      class=".creators.CreatorsAddForm"
+      permission="cmf.ManagePortal"
+      />
+
+    <browser:page
+      for="sc.contentrules.metadata.actions.creators.ICreatorsAction"
+      name="edit"
+      class=".creators.CreatorsEditForm"
+      permission="cmf.ManagePortal"
+      />
+
+    <!-- Contributors -->
+    <plone:ruleAction
+        name="sc.contentrules.actions.Contributors"
+        title="Set Contributors"
+        description="Defines contributors for the content item"
+        for="*"
+        event="zope.component.interfaces.IObjectEvent"
+        addview="sc.contentrules.actions.Contributors"
+        editview="edit"
+        schema=".contributors.IContributorsAction"
+        factory=".contributors.ContributorsAction"
+        i18n:attributes="title; description"
+        />
+
+    <adapter factory=".contributors.ContributorsActionExecutor" />
+
+    <browser:page
+      for="plone.app.contentrules.browser.interfaces.IRuleActionAdding"
+      name="sc.contentrules.actions.Contributors"
+      class=".contributors.ContributorsAddForm"
+      permission="cmf.ManagePortal"
+      />
+
+    <browser:page
+      for="sc.contentrules.metadata.actions.contributors.IContributorsAction"
+      name="edit"
+      class=".contributors.ContributorsEditForm"
+      permission="cmf.ManagePortal"
+      />
+
+</configure>

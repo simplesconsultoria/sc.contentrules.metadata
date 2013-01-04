@@ -1,0 +1,37 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="sc.contentrules.metadata">
+
+    <!-- Subject -->
+    <plone:ruleCondition
+        name="sc.contentrules.conditions.Subject"
+        title="Tag"
+        description="Apply only when the current content object contains the selected Tags."
+        for="*"
+        event="zope.component.interfaces.IObjectEvent"
+        addview="sc.contentrules.conditions.Subject"
+        editview="edit"
+        schema=".subject.ISubjectCondition"
+        factory=".subject.SubjectCondition"
+    />
+
+    <adapter factory=".subject.SubjectConditionExecutor" />
+
+    <browser:page 
+      for="plone.app.contentrules.browser.interfaces.IRuleConditionAdding"
+      name="sc.contentrules.conditions.Subject"
+      class=".subject.SubjectAddForm"
+      permission="cmf.ManagePortal"
+      />
+
+    <browser:page 
+      for="sc.contentrules.metadata.conditions.subject.ISubjectCondition"
+      name="edit"
+      class=".subject.SubjectEditForm"
+      permission="cmf.ManagePortal"
+      />
+  
+
+</configure>
