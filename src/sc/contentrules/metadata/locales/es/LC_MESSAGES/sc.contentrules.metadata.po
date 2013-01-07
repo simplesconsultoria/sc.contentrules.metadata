@@ -1,0 +1,253 @@
+# Héctor Velarde <hector.velarde@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: sc.contentrules.metadata 1.0\n"
+"POT-Creation-Date: 2013-01-07 18:19+0000\n"
+"PO-Revision-Date: 2013-01-07 16:46-0300\n"
+"Last-Translator: Héctor Velarde <hector.velarde@gmail.com>\n"
+"Language-Team: Spanish <https://github.com/collective>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: sc.contentrules.metadata\n"
+
+#: sc/contentrules/metadata/actions/contributors.py:57
+msgid ", only if contributors was not set."
+msgstr ", sólo si los contribuyentes no fueron especificados."
+
+#: sc/contentrules/metadata/actions/creators.py:56
+msgid ", only if creators was not set."
+msgstr ", sólo si los creadores no fueron especificados."
+
+#: sc/contentrules/metadata/actions/language.py:55
+msgid ", only if language was not set."
+msgstr ", sólo si el idioma no fue especificado."
+
+#: sc/contentrules/metadata/actions/rights.py:52
+msgid ", only if rights was not set."
+msgstr ", sólo si los derechos de autor no fueron especificados."
+
+#: sc/contentrules/metadata/actions/contributors.py:58
+#: sc/contentrules/metadata/actions/creators.py:57
+#: sc/contentrules/metadata/actions/language.py:56
+msgid "."
+msgstr "."
+
+#: sc/contentrules/metadata/conditions/subject.py:21
+msgid "A tag condition makes the rule apply only to contents with any of the selected tags. If no tag is selected the rule will apply to contents without tags applied to them."
+msgstr "Una condición que hace que la regla se aplique únicamente a los contenidos con cualquiera de las siguientes etiquetas. Si no se selecciona una etiqueta la regla se aplicará a los contenidos sin etiquetas aplicadas."
+
+#: sc/contentrules/metadata/conditions/subject.py:89
+msgid "Add Tag Condition"
+msgstr "Agregar condición de categorías"
+
+#: sc/contentrules/metadata/actions/navigation.py:76
+msgid "Add an exclude from navigation content rules action"
+msgstr "Agregar una acción para excluir el contenido de la navegación"
+
+#: sc/contentrules/metadata/actions/contributors.py:95
+msgid "Add set Contributors content rules action"
+msgstr "Agregar una acción que especifica los contribuyentes del contenido"
+
+#: sc/contentrules/metadata/actions/creators.py:94
+msgid "Add set Creators content rules action"
+msgstr "Agregar una acción que especifica los creadores del contenido"
+
+#: sc/contentrules/metadata/actions/language.py:92
+msgid "Add set Language content rules action"
+msgstr "Agregar una acción que especifica el idioma del contenido"
+
+#: sc/contentrules/metadata/actions/rights.py:89
+msgid "Add set Rights content rules action"
+msgstr "Agregar una acción que especifica los derechos de autor del contenido"
+
+#: sc/contentrules/metadata/actions/subject.py:98
+msgid "Add set Tags content rules action"
+msgstr "Agregar una acción que especifica las categorías del contenido"
+
+#: sc/contentrules/metadata/actions/subject.py:23
+msgid "An action that applies Tags to a content."
+msgstr "Una acción que aplica categorías al contenido."
+
+#: sc/contentrules/metadata/actions/navigation.py:18
+msgid "An action that excludes contents from navigation."
+msgstr "Una acción que excluye al contenido de la navegación."
+
+#: sc/contentrules/metadata/actions/contributors.py:20
+msgid "An action that sets contributors to a content."
+msgstr "Una acción que especifica los contribuyentes del contenido."
+
+#: sc/contentrules/metadata/actions/creators.py:20
+msgid "An action that sets creators to a content."
+msgstr "Una acción que especifica los creadores del contenido."
+
+#: sc/contentrules/metadata/actions/language.py:21
+msgid "An action that sets language to a content."
+msgstr "Una acción que especifica el idioma del contenido."
+
+#: sc/contentrules/metadata/actions/rights.py:19
+msgid "An action that sets rights to a content."
+msgstr "Una acción que especifica los derechos de autor del contenido."
+
+#: sc/contentrules/metadata/actions/subject.py:61
+msgid "Apply tags ${tags}"
+msgstr "Aplicar las categorías ${tags}"
+
+#: sc/contentrules/metadata/actions/subject.py:59
+msgid "Apply tags from parent object."
+msgstr "Aplicar las categorías del objeto padre."
+
+#: sc/contentrules/metadata/actions/contributors.py:37
+msgid "Apply this only if no contributors was set on the content item."
+msgstr "Aplicar únicamente si el objeto no tiene contribuyentes especificados."
+
+#: sc/contentrules/metadata/actions/creators.py:37
+msgid "Apply this only if no creators was set on the content item."
+msgstr "Aplicar únicamente si el objeto no tiene creadores especificados."
+
+#: sc/contentrules/metadata/actions/language.py:36
+msgid "Apply this only if no language was set on the content item."
+msgstr "Aplicar únicamente si el objeto no tiene idioma especificado."
+
+#: sc/contentrules/metadata/actions/rights.py:33
+msgid "Apply this only if no rights was set on the content item."
+msgstr "Aplicar únicamente si el objeto no tiene derechos de autor especificados."
+
+#: sc/contentrules/metadata/actions/contributors.py:18
+#: sc/contentrules/metadata/actions/creators.py:18
+#: sc/contentrules/metadata/actions/language.py:19
+msgid "Configure action"
+msgstr "Configurar la acción"
+
+#: sc/contentrules/metadata/conditions/subject.py:19
+msgid "Configure condition"
+msgstr "Configurar la condición"
+
+#: sc/contentrules/metadata/actions/contributors.py:31
+msgid "Contributors"
+msgstr "Contribuyentes"
+
+#: sc/contentrules/metadata/actions/creators.py:28
+msgid "Creators"
+msgstr "Creadores"
+
+#: sc/contentrules/metadata/conditions/subject.py:103
+msgid "Edit Tag Condition"
+msgstr "Editar la condición de las categorías"
+
+#: sc/contentrules/metadata/actions/navigation.py:91
+msgid "Edit an exclude from navigation content rules action"
+msgstr "Editar la acción para especificar la exclusión de la navegación."
+
+#: sc/contentrules/metadata/actions/contributors.py:110
+msgid "Edit the set Contributors content rules action"
+msgstr "Editar la acción para especificar los contribuyentes."
+
+#: sc/contentrules/metadata/actions/creators.py:109
+msgid "Edit the set Creators content rules action"
+msgstr "Editar la acción para especificar los creadores"
+
+#: sc/contentrules/metadata/actions/language.py:107
+msgid "Edit the set Language content rules action"
+msgstr "Editar la acción para especificar el idioma"
+
+#: sc/contentrules/metadata/actions/rights.py:104
+msgid "Edit the set Rights content rules action"
+msgstr "Editar la acción para especificar los derechos de autor"
+
+#: sc/contentrules/metadata/actions/subject.py:113
+msgid "Edit the set Tags content rules action"
+msgstr "Editar la acción para especificar las categorías"
+
+#: sc/contentrules/metadata/actions/navigation.py:27
+msgid "Exclude content from navigation"
+msgstr "Excluir el objeto de la navegación"
+
+#: sc/contentrules/metadata/actions/navigation.py:44
+msgid "Exclude content object from navigation."
+msgstr "Excluir el objeto de la navegación."
+
+#: sc/contentrules/metadata/actions/navigation.py:28
+msgid "If checked the content will not be listed in portal navigation elements."
+msgstr "Si se selecciona, el objeto no será mostrado en la navegación del portal."
+
+#: sc/contentrules/metadata/actions/rights.py:28
+msgid "Inform the copyright statement or other rights information on this item"
+msgstr "Derechos de autor para este objeto"
+
+#: sc/contentrules/metadata/actions/language.py:29
+msgid "Language"
+msgstr "Idioma"
+
+#: sc/contentrules/metadata/conditions/subject.py:51
+msgid "No tags selected"
+msgstr "No hay categorías seleccionadas."
+
+#: sc/contentrules/metadata/actions/contributors.py:36
+#: sc/contentrules/metadata/actions/creators.py:36
+#: sc/contentrules/metadata/actions/language.py:35
+msgid "Only if not set"
+msgstr "Sólo si no ha sido especificado"
+
+#: sc/contentrules/metadata/actions/creators.py:29
+msgid "Persons responsible for creating the content of this item. Please enter a list of user names, one per line. The principal creator should come first."
+msgstr "Personas responsables por la creación de este objeto. Por favor entre una lista con los nombres de usuario, uno por línea. El creador principal debe ir primero."
+
+#: sc/contentrules/metadata/actions/rights.py:27
+msgid "Rights"
+msgstr "Derechos de autor"
+
+#: sc/contentrules/metadata/actions/language.py:30
+msgid "Select here the language to be applied to the content item."
+msgstr "Seleccione aquí el idioma que será aplicado al objeto."
+
+#: sc/contentrules/metadata/actions/subject.py:32
+msgid "Select this to use Tags as defined in the parent object. If this option is selected this action ignores the following field."
+msgstr "Seleccione aquí para utilizar las categorías definidas en el objeto padre. Si esta opción está seleccionada, el siguiente campo se ignorará."
+
+#: sc/contentrules/metadata/actions/contributors.py:59
+msgid "Set contributors to ${contributors}${condition}"
+msgstr "Especificar contribuyentes a ${contributors}${condition}"
+
+#: sc/contentrules/metadata/actions/creators.py:58
+msgid "Set creators to ${creators}${condition}"
+msgstr "Especificar creadores a ${contributors}${condition}"
+
+#: sc/contentrules/metadata/actions/language.py:57
+msgid "Set language ${language}${condition}"
+msgstr "Especificar idioma como ${contributors}${condition}"
+
+#: sc/contentrules/metadata/actions/rights.py:54
+msgid "Set rights '${rights}'${condition}"
+msgstr "Especificar derechos de autor a ${contributors}${condition}"
+
+#: sc/contentrules/metadata/actions/navigation.py:46
+msgid "Show content object in navigation."
+msgstr "Mostrar el objeto en la navegación del sitio."
+
+#: sc/contentrules/metadata/actions/subject.py:37
+#: sc/contentrules/metadata/conditions/subject.py:31
+msgid "Tags"
+msgstr "Categorías"
+
+#: sc/contentrules/metadata/conditions/subject.py:53
+msgid "Tags contains ${tags}"
+msgstr "Categorías conteniendo ${tags}"
+
+#: sc/contentrules/metadata/actions/subject.py:38
+#: sc/contentrules/metadata/conditions/subject.py:32
+msgid "Tags to check for. Leave it blank to check for contents without any tag set"
+msgstr "Etiquetas a confirmar. Deje en blanco para revisar únicamente objetos sin etiquetas aplicadas."
+
+#: sc/contentrules/metadata/actions/contributors.py:22
+msgid "The names of people that have contributed to this item. Each contributor should  be on a separate line."
+msgstr "Los nombres de las personas que han contribuido con este contenido. Por favor entre una lista con los nombres, uno por línea."
+
+#: sc/contentrules/metadata/actions/subject.py:31
+msgid "Use Tags from parent object"
+msgstr "Usar las categorías del objeto padre"
+
