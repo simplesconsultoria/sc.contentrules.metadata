@@ -4,6 +4,8 @@ Changelog
 1.0b2 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+- Test compatibility with Plone 4.3. [hvelarde]
+
 - Fix package distribution. [hvelarde]
 
 
