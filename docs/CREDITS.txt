@@ -1,4 +1,13 @@
 Contributors
 -----------------
 
-* Érico Andrei [ericof] -- Initial idea
+ - Érico Andrei [ericof] -- Initial idea
+
+ - Hector Velarde [hvelarde] -- Packaging
+
+
+Sponsors
+------------------
+
+Development sponsored by OpenMultimedia and Simples Consultoria.
+
