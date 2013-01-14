@@ -4,12 +4,11 @@ Changelog
 1.0b2 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Fix package distribution. [hvelarde]
 
 
 1.0b1 (2013-01-14)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-  * Initial release
-    [ericof]
-
+- Initial release
+  [ericof]
