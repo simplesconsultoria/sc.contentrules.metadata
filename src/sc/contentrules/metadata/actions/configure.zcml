@@ -8,8 +8,8 @@
     <!-- Subject -->
     <plone:ruleAction
         name="sc.contentrules.actions.Subject"
-        title="Sets Tags"
-        description="Sets Tags for a content item."
+        title="Set Tags"
+        description="Set Tags for a content item."
         for="*"
         event="zope.component.interfaces.IObjectEvent"
         addview="sc.contentrules.actions.Subject"
