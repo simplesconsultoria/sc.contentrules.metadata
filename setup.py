@@ -1,13 +1,15 @@
 # -*- coding:utf-8 -*-
 
+from setuptools import find_packages
+from setuptools import setup
+
 import os
-from setuptools import setup, find_packages
 
 version = '1.0b3.dev0'
-long_description = (open("README.txt").read() + "\n" +
-    open(os.path.join("docs", "INSTALL.txt")).read() + "\n" +
-    open(os.path.join("docs", "CREDITS.txt")).read() + "\n" +
-    open(os.path.join("docs", "HISTORY.txt")).read())
+long_description = (open("README.rst").read() + "\n" +
+    open(os.path.join("docs", "INSTALL.rst")).read() + "\n" +
+    open(os.path.join("docs", "CREDITS.rst")).read() + "\n" +
+    open(os.path.join("docs", "HISTORY.rst")).read())
 
 
 setup(name='sc.contentrules.metadata',
