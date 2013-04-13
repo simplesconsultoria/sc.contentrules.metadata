@@ -4,7 +4,7 @@ Changelog
 1.0b3 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Plone 4.3 support [ericof]
 
 
 1.0b2 (2013-01-15)
