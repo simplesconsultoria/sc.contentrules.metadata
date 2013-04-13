@@ -12,7 +12,7 @@ develop-eggs/
 downloads/
 eggs/
 local.cfg
-Makefile.local
+Makefile
 node_modules/
 parts/
 var/
