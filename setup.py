@@ -6,10 +6,9 @@ from setuptools import setup
 import os
 
 version = '1.0.1.dev0'
-long_description = (open("README.rst").read() + "\n" +
-    open(os.path.join("docs", "INSTALL.rst")).read() + "\n" +
-    open(os.path.join("docs", "CREDITS.rst")).read() + "\n" +
-    open(os.path.join("docs", "HISTORY.rst")).read())
+long_description = open("README.rst").read() + "\n" + \
+    open(os.path.join("docs", "CREDITS.rst")).read() + "\n" + \
+    open(os.path.join("docs", "HISTORY.rst")).read()
 
 
 setup(name='sc.contentrules.metadata',
@@ -20,7 +19,6 @@ setup(name='sc.contentrules.metadata',
           "Development Status :: 4 - Beta",
           "Environment :: Web Environment",
           "Framework :: Plone",
-          "Framework :: Plone :: 4.1",
           "Framework :: Plone :: 4.2",
           "Framework :: Plone :: 4.3",
           "Intended Audience :: System Administrators",
