@@ -41,7 +41,7 @@ class ExcludeFromNavAction(SimpleItem):
     def summary(self):
         exclude = self.exclude
         if exclude:
-            msg = _(u"Exclude content object from navigation.")
+            msg = _(u"Exclude content from navigation.")
         else:
             msg = _(u"Show content object in navigation.")
         return msg
