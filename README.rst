@@ -82,6 +82,9 @@ Mostly Harmless
 .. image:: https://secure.travis-ci.org/simplesconsultoria/sc.contentrules.metadata.png
     :target: http://travis-ci.org/simplesconsultoria/sc.contentrules.metadata
 
+.. image:: https://coveralls.io/repos/simplesconsultoria/sc.contentrules.metadata/badge.png :target: https://coveralls.io/r/simplesconsultoria/sc.contentrules.metadata
+
+
 Got an idea? Found a bug? Let us know by `opening a support ticket`_.
 
 .. _`opening a support ticket`: https://github.com/simplesconsultoria/sc.contentrules.metadata/issues
