@@ -101,7 +101,7 @@ We will set exclude from navigation as true::
 
 Our action is listed here::
 
-    >>> 'Exclude content object from navigation' in browser.contents
+    >>> 'Exclude content from navigation' in browser.contents
     True
 
 Now we will not exclude from navigation ::
