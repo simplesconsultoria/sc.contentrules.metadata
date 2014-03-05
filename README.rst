@@ -66,6 +66,16 @@ Tag
 Content rule condition that will apply only when the current content item 
 contains the selected Tags.
 
+Installation
+------------
+
+Include this package in eggs and zcml section of your buildout. For further reference please refer to the `official guide`_.
+
+Requirements
+------------
+
+    * Plone 4.2.x and above (http://plone.org/products/plone)
+
 Mostly Harmless
 ---------------
 
@@ -75,3 +85,6 @@ Mostly Harmless
 Got an idea? Found a bug? Let us know by `opening a support ticket`_.
 
 .. _`opening a support ticket`: https://github.com/simplesconsultoria/sc.contentrules.metadata/issues
+
+.. _`official guide`: http://plone.org/documentation/manual/developer-manual/managing-projects-with-buildout/installing-a-third-party-product
+

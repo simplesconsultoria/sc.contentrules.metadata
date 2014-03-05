@@ -1,10 +1,16 @@
 Changelog
 ------------
 
-1.0b3 (unreleased)
+1.0.1 (unreleased)
+^^^^^^^^^^^^^^^^^^^^
+
+- Add translations to plone domain.
+  [ericof]
+
+1.0 (2013-04-13)
 ^^^^^^^^^^^^^^^^^^
 
-- Plone 4.3 support [ericof]
+- Support Plone 4.3 [ericof]
 
 
 1.0b2 (2013-01-15)
