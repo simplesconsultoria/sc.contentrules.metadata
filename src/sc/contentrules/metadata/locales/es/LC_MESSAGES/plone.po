@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: sc.contentrules.metadata 1.0\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -9,8 +9,66 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"Language-Code: en\n"
-"Language-Name: English\n"
+"Language-Code: es\n"
+"Language-Name: Spanish\n"
 "Preferred-Encodings: utf-8 latin1\n"
-"Domain: DOMAIN\n"
+"Domain: plone\n"
 
+#: sc/contentrules/metadata/actions/configure.zcml
+msgid "Set Tags"
+msgstr ""
+
+#: sc/contentrules/metadata/actions/configure.zcml
+msgid "Apply only when the current content object contains the selected Tags."
+msgstr ""
+
+#: sc/contentrules/metadata/actions/configure.zcml
+msgid "Exclude from navigation"
+msgstr ""
+
+#: sc/contentrules/metadata/actions/configure.zcml
+msgid "Excludes a content item from navigation."
+msgstr ""
+
+#: sc/contentrules/metadata/actions/configure.zcml
+msgid "Set Language"
+msgstr ""
+
+#: sc/contentrules/metadata/actions/configure.zcml
+msgid "Defines a language to the content item."
+msgstr ""
+
+#: sc/contentrules/metadata/actions/configure.zcml
+msgid "Set Rights"
+msgstr ""
+
+#: sc/contentrules/metadata/actions/configure.zcml
+msgid "Defines rights for the content item."
+msgstr ""
+
+#: sc/contentrules/metadata/actions/configure.zcml
+msgid "Set Creators"
+msgstr ""
+
+#: sc/contentrules/metadata/actions/configure.zcml
+msgid "Defines creators for the content item."
+msgstr ""
+#: sc/contentrules/metadata/actions/configure.zcml
+msgid "Set Contributors"
+msgstr ""
+
+#: sc/contentrules/metadata/actions/configure.zcml
+msgid "Defines contributors for the content item."
+msgstr ""
+
+#: sc/contentrules/metadata/actions/configure.zcml
+msgid "Defines creators for the content item."
+msgstr ""
+
+#: sc/contentrules/metadata/conditions/configure.zcml
+msgid "Tag"
+msgstr ""
+
+#: sc/contentrules/metadata/conditions/configure.zcml
+msgid "Apply only when the current content object contains the selected Tags."
+msgstr ""

@@ -9,57 +9,58 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"Language-Code: en\n"
-"Language-Name: English\n"
+"Language-Code: pt-br\n"
+"Language-Name: Brazilian Portuguese\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: plone\n"
 
 #: sc/contentrules/metadata/actions/configure.zcml
 msgid "Set Tags"
-msgstr ""
+msgstr "Atribui Tags"
 
 #: sc/contentrules/metadata/actions/configure.zcml
-msgid "Apply only when the current content object contains the selected Tags."
-msgstr ""
+msgid "Set Tags for a content item."
+msgstr "Define as Tags para um conteúdo."
 
 #: sc/contentrules/metadata/actions/configure.zcml
 msgid "Exclude from navigation"
-msgstr ""
+msgstr "Excluir da navegação"
 
 #: sc/contentrules/metadata/actions/configure.zcml
 msgid "Excludes a content item from navigation."
-msgstr ""
+msgstr "Exclui um conteúdo da navegação."
 
 #: sc/contentrules/metadata/actions/configure.zcml
 msgid "Set Language"
-msgstr ""
+msgstr "Atribui Idioma"
 
 #: sc/contentrules/metadata/actions/configure.zcml
-msgid "Defines a language to the content item."
-msgstr ""
+msgid "Defines a language to the content item"
+msgstr "Define o idioma para o conteúdo."
 
 #: sc/contentrules/metadata/actions/configure.zcml
 msgid "Set Rights"
-msgstr ""
+msgstr "Atribui Direitos"
 
 #: sc/contentrules/metadata/actions/configure.zcml
 msgid "Defines rights for the content item."
-msgstr ""
+msgstr "Define os direitos para o conteúdo."
 
 #: sc/contentrules/metadata/actions/configure.zcml
 msgid "Set Creators"
-msgstr ""
+msgstr "Atribui Criadores"
 
 #: sc/contentrules/metadata/actions/configure.zcml
 msgid "Defines creators for the content item."
-msgstr ""
+msgstr "Define os criadores para o conteúdo."
+
 #: sc/contentrules/metadata/actions/configure.zcml
 msgid "Set Contributors"
-msgstr ""
+msgstr "Atribui Contribuidores"
 
 #: sc/contentrules/metadata/actions/configure.zcml
 msgid "Defines contributors for the content item."
-msgstr ""
+msgstr "Define os contribuidores para o conteúdo."
 
 #: sc/contentrules/metadata/actions/configure.zcml
 msgid "Defines creators for the content item."
@@ -67,8 +68,8 @@ msgstr ""
 
 #: sc/contentrules/metadata/conditions/configure.zcml
 msgid "Tag"
-msgstr ""
+msgstr "Tag"
 
 #: sc/contentrules/metadata/conditions/configure.zcml
 msgid "Apply only when the current content object contains the selected Tags."
-msgstr ""
+msgstr "Executa apenas quando o conteúdo possuir as tags indicadas."
